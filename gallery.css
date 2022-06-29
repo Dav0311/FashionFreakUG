@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(252, 208, 215);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.container .heading{
+
+}
+
+.container ,.heading h3{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222;
+}
+
+.container ,.heading span{   
+    font-weight: 100;
+    
+}
+
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     padding-top: 15px;
+}
+
+.container .box .dream img{
+    border-radius: 15px;
+    padding: 0;
+    margin: 10px 0 10px 10px;
+    
+}
+
+.btn  button a{
+    font-size: medium;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 5px;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+ .btn a button {
+    background-color: none;
+    padding: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+@media only screen and(max-width: 500px){
+    .container .box .dream img{
+        flex-direction: column;    
+    }
+}
