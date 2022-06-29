@@ -110,6 +110,11 @@ nav .header img{
     border-radius: 5px;
     width: 100%;
 }
+    
+.sub .text .btn button span{
+ font-weight: 100;
+    font-size: x-large;
+}
 i{
     justify-content: space-evenly;
     padding-right: 5px;
